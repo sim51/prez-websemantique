@@ -1,0 +1,65 @@
+body{
+  background:url("../img/background.png") no-repeat bottom #FFFFFF;
+  background-size: 100%;
+  color: #000000;
+  font-size:0.9em;
+}
+
+h1, h2, h3, h4{
+  color: #848FAF;
+}
+
+.footnote {
+  font-size: 0.7em;
+  font-style: italic;
+  margin-top: 100px;
+  display:block;
+}
+
+h1{
+  font-size:1.4em;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.step *{
+  text-align:center;
+}
+.step ul,.step ul li, .step ul li * {
+  text-align:left;
+}
+
+.step ul.center,.step ul.center li, .step ul.center li * {
+  text-align:center;
+}
+
+.step ul li{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+
+blockquote{
+    font-size:0.7em;
+}
+ 
+ blockquote.small{
+  font-size:0.5em;
+  text-align:left;
+ }
+ 
+ p.comment{
+  text-align:left;
+  font-size:0.7em;
+  color:green;
+ }
+ 
+ div.code *{
+  text-align:left;
+ }
+ 
+ div#footer{
+  position:fixed;
+  bottom: 10px;
+  left: 50px;
+ }
